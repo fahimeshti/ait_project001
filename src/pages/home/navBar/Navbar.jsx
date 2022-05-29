@@ -215,7 +215,7 @@ const Navbar = () => {
                                                     {toggle1_1 ? '-' : '+'}
                                                 </span>
                                             </a>
-                                            <ul className={`${toggle1_1 ? 'max-h-[80rem]' : 'max-h-0'} md:max-h-[100vh] md:overflow-x-hidden overflow-hidden transition-all`}>
+                                            <ul className={`${toggle1_1 ? 'max-h-[80rem]' : 'max-h-0'} md:max-h-[100vh] md:overflow-x-hidden overflow-hidden transition-all duration-500`}>
                                                 {
                                                     navHovFirstRow.map((item, idx) => (
                                                         <li key={idx} className='border-b first:border-t last:border-b-0 md:first:border-t-0 md:border-0 md:border-l-2 md:border-transparent md:hover:border-l-2 md:hover:border-[#222] md:hover:bg-[#1cadd9] md:hover:overflow-hidden transition-all duration-300 cursor-pointer'>
@@ -257,7 +257,7 @@ const Navbar = () => {
                                                     {toggle1_3 ? '-' : '+'}
                                                 </span>
                                             </a>
-                                            <ul className={`${toggle1_3 ? 'max-h-[80rem]' : 'max-h-0'} md:max-h-[100vh] md:overflow-x-hidden overflow-hidden transition-all`}>
+                                            <ul className={`${toggle1_3 ? 'max-h-[80rem]' : 'max-h-0'} md:max-h-[100vh] md:overflow-x-hidden overflow-hidden transition-all duration-500`}>
                                                 {
                                                     navHov3rdRow.map((item, idx) => (
                                                         <li key={idx} className='border-b first:border-t last:border-b-0 md:first:border-t-0 md:border-0 md:border-l-2 md:border-transparent md:hover:border-l-2 md:hover:border-[#222] md:hover:bg-[#1cadd9] md:hover:overflow-hidden transition-all duration-300 cursor-pointer'>
